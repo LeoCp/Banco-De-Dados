@@ -7,6 +7,17 @@
 ### Intruções Sql:
 A linguagem SQL é dividida em <STRONG>subconjuntos</STRONG> de acordo com as operações que queremos efetuar sobre um banco de dados.
 #### Linguagem de definição de dados (DDL):
+É usada para definir estruturas de dados ou esquemas.Os comandos ultilidados são:
+##### Create:
+##### Alter:  
+##### Truncate: 
+##### Comment: 
+##### Rename: 
+
+
+
+
+
 #### Linguagem de manipulação de dados(DML):
 #### Linguagem de controle de dados (DCL):
 #### Linguagem de consulta de dados (DQL):
