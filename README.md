@@ -9,15 +9,23 @@ A linguagem SQL é dividida em <STRONG>subconjuntos</STRONG> de acordo com as op
 #### Linguagem de definição de dados (DDL):
 É usada para definir estruturas de dados ou esquemas.Os comandos ultilidados são:
 ##### Create:
-O comando CREATE é usado para criar objetos, como 
+O comando CREATE é usado para criar objetos, como table,view,user
+• <strong>CREATE TABLE:</strong><br>
+Comando para criar uma tabela
+
+```
+CREATE TABLE <NOME_DA_TABELA> (
+<NOME_DA_COLUNA> <TIPO_DO_DADO> <NOT NULL> <UNIQUE> <DEFAULT VALOR>,
+CONSTRAINT <NOME> PRIMARY KEY (<NOME_DA_PRIMARY_KEY>),
+CONSTRAINT <NOME> FOREIGN KEY (<NOME_DA_FOREIGN_KEY>) REFERENCE <NOME_DA_TABELA>(<NOME_DA_COLUNA>)
+);
+```
+
+
 ##### Alter:  
 ##### Truncate: 
 ##### Comment: 
 ##### Rename: 
-
-
-
-
 
 #### Linguagem de manipulação de dados(DML):
 #### Linguagem de controle de dados (DCL):
