@@ -47,7 +47,7 @@ FOREIGN KEY (<NOME_DA_COLUNA>) REFERENCES <NOME_DA_TABELA>(<NOME_DA_COLUNA>) ON 
 ```
 <br>
 <strong>Regras:</strong><br>
-- RESTRICT: Se houver uma tentativa de remover uma linha da Tabela1 falhará se alguma linha em Tabela2 combina com a chave.
+RESTRICT: Se houver uma tentativa de remover uma linha da Tabela1 falhará se alguma linha em Tabela2 combina com a chave.
 <br>
 ##### Alter:  
 ##### Truncate: 
