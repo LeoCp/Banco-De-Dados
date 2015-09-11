@@ -9,9 +9,9 @@
 A linguagem SQL é dividida em <STRONG>subconjuntos</STRONG> de acordo com as operações que queremos efetuar sobre um banco de dados.
 #### Linguagem de definição de dados (DDL):
 É usada para definir estruturas de dados ou esquemas.Os comandos ultilidados são:
-##### <strong>Create:</strong>
+##### CREATE:</p>
 O comando CREATE é usado para criar objetos, como table,view,user..<br><br>
-• <strong>CREATE TABLE:</strong><br>
+• <strong>create table:</strong><br>
 Comando para criar uma tabela
 
 ```
@@ -41,19 +41,19 @@ CONSTRAINT Emp_REF_Set FOREIGN KEY (idSetor) REFERENCES Setor(idSetor)
 Pode-se acrescentar definições das ações que deverão ser executadas em caso de atualização(ON UPDATE)
 ou remoção(ON DELETE) de linhas da tabela. Se a Tabela2 tem chave estrangeira para Tabela1. 
 <br><br>
-<strong>+ ON DELETE:</STRONG>
+<strong>+ on delete:</STRONG>
 ```
 FOREIGN KEY (<NOME_DA_COLUNA>) REFERENCES <NOME_DA_TABELA>(<NOME_DA_COLUNA>) ON DELETE <NOME_DA_REGRA> 
 ```
-<strong>- RESTRICT:</strong> Se houver uma tentativa de remover uma linha da Tabela1 falhará se alguma linha em Tabela2 combina com a chave.
+<strong>- restrict:</strong> Se houver uma tentativa de remover uma linha da Tabela1 falhará se alguma linha em Tabela2 combina com a chave.
 <br>
-<strong>- CASCADE:</strong> Na remoção de uma linha da Tabela1 implica em remoção de todas as linhas da Tabela2 que combina com a Tabela1.
+<strong>- cascade:</strong> Na remoção de uma linha da Tabela1 implica em remoção de todas as linhas da Tabela2 que combina com a Tabela1.
 <br>
-<strong>- SET NULL:</strong> Na remoção da Tabela1 implica em colocar NULL em todas os atributos de chave estrangeira de cada linha da Tabela2 que combina.
+<strong>- set null:</strong> Na remoção da Tabela1 implica em colocar NULL em todas os atributos de chave estrangeira de cada linha da Tabela2 que combina.
 <br>
-<strong>- SET DEFAULT:</strong> Na remoção da linha da Tabela1 implica em colocar valores DEFAULT nos atributos da chave estrangeira de cada linha da Tabela2 que combina.
+<strong>- set default:</strong> Na remoção da linha da Tabela1 implica em colocar valores DEFAULT nos atributos da chave estrangeira de cada linha da Tabela2 que combina.
 <br><br>
-<strong>+ ON UPDATE:</STRONG>
+<strong>+ on update:</STRONG>
 ```
 FOREIGN KEY (<NOME_DA_COLUNA>) REFERENCES <NOME_DA_TABELA>(<NOME_DA_COLUNA>) ON UPDATE <NOME_DA_REGRA> 
 ```
