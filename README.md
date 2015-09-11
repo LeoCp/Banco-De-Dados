@@ -11,10 +11,11 @@
 ### Intruções Sql:
 A linguagem SQL é dividida em <STRONG>subconjuntos</STRONG> de acordo com as operações que queremos efetuar sobre um banco de dados.
 #### Linguagem de definição de dados (DDL):
-É usada para definir estruturas de dados ou esquemas.Os comandos ultilidados são:
+• É usada para definir estruturas de dados ou esquemas.<br>
+• Podemos colocar restrições para limitar o tipo de dados a introduzir. Essas tais restrições podem ser declaradas quando  fizermos a instrução CREATE TABLE ou ALTER TABLE que são comandos DDL que cria e altera uma tabela.
 ##### CREATE:</p>
 O comando CREATE é usado para criar objetos, como table,view,user..<br><br>
-• <strong>create table:</strong><br>
+ <strong>+ create table:</strong><br>
 Comando para criar uma tabela
 
 ```
@@ -27,8 +28,8 @@ CONSTRAINT <NOME> FOREIGN KEY (<NOME_DA_FOREIGN_KEY>) REFERENCES <NOME_DA_TABELA
 );
 ```
 <br>
-CONSTRAINT
-Pode colocar restrições para limitar o tipo de dados a introduzir numa tabela. Essas restrições podem ser especificadas quando a tabela for primeiro criada através da instrução CREATE TABLE ou após a tabela já ter sido criada através da instrução ALTER TABLE.
+<strong>constraint:</strong><br>
+Podemos colocar restrições para limitar o tipo de dados a introduzir em uma tabela. Essas tais restrições podem ser declaradas quando a tabela for criada através da instrução CREATE TABLE ou após a tabela já ter sido criada através da instrução ALTER TABLE.
 Exemplo:
 <br>
 ```
