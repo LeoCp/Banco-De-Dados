@@ -20,12 +20,15 @@ Comando para criar uma tabela
 ```
 CREATE TABLE <NOME_DA_TABELA> (
 <NOME_DA_COLUNA> <TIPO_DO_DADO> <NOT NULL> <UNIQUE> <DEFAULT VALOR>,
-CHECK(<CONDIÇÃO>),
+CONSTRAINT <NOME> CHECK(<CONDIÇÃO>),
+CONSTRAINT <NOME> UNIQUE (<NOME_DA_COLUNA>),
 CONSTRAINT <NOME> PRIMARY KEY (<NOME_DA_PRIMARY_KEY>),
 CONSTRAINT <NOME> FOREIGN KEY (<NOME_DA_FOREIGN_KEY>) REFERENCES <NOME_DA_TABELA>(<NOME_DA_COLUNA>)
 );
 ```
 <br>
+CONSTRAINT
+Pode colocar restrições para limitar o tipo de dados a introduzir numa tabela. Essas restrições podem ser especificadas quando a tabela for primeiro criada através da instrução CREATE TABLE ou após a tabela já ter sido criada através da instrução ALTER TABLE.
 Exemplo:
 <br>
 ```
@@ -33,9 +36,11 @@ CREATE TABLE Empregado (
 idEmpregado INT NOT NULL,
 Nome VARCHAR2(50),
 idSetor INT,
+Cpf INT,
 Salario INT,
 Endereco VARCHAR2(50),
-CHECK(Salario >= 1000),
+CONSTRAINT Empregado_un UNIQUE(Cpf),
+CONSTRAINT Empregado_ck CHECK(Salario >= 1000),
 CONSTRAINT Empregado_pk PRIMARY KEY (idEmpregado),
 CONSTRAINT Emp_REF_Set FOREIGN KEY (idSetor) REFERENCES Setor(idSetor)
 );
