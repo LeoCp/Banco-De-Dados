@@ -52,7 +52,19 @@ FOREIGN KEY (<NOME_DA_COLUNA>) REFERENCES <NOME_DA_TABELA>(<NOME_DA_COLUNA>) ON 
 <strong>- SET NULL:</strong> Na remoção da Tabela1 implica em colocar NULL em todas os atributos de chave estrangeira de cada linha da Tabela2 que combina.
 <br>
 <strong>- SET DEFAULT:</strong> Na remoção da linha da Tabela1 implica em colocar valores DEFAULT nos atributos da chave estrangeira de cada linha da Tabela2 que combina.
-
+<br><br>
+<strong>+ ON UPDATE:</STRONG>
+```
+FOREIGN KEY (<NOME_DA_COLUNA>) REFERENCES <NOME_DA_TABELA>(<NOME_DA_COLUNA>) ON UPDATE <NOME_DA_REGRA> 
+```
+<strong>- RESTRICT:</strong> 
+<br>
+<strong>- CASCADE:</strong>
+<br>
+<strong>- SET NULL:</strong>
+<br>
+<strong>- SET DEFAULT:</strong> 
+<br><br>
 
 ##### Alter:  
 ##### Truncate: 
