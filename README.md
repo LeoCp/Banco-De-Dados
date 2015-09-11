@@ -27,9 +27,7 @@ CONSTRAINT <NOME> PRIMARY KEY (<NOME_DA_PRIMARY_KEY>),
 CONSTRAINT <NOME> FOREIGN KEY (<NOME_DA_FOREIGN_KEY>) REFERENCES <NOME_DA_TABELA>(<NOME_DA_COLUNA>)
 );
 ```
-<br>
-<strong>constraint:</strong><br>
-Podemos colocar restrições para limitar o tipo de dados a introduzir em uma tabela. Essas tais restrições podem ser declaradas quando a tabela for criada através da instrução CREATE TABLE ou após a tabela já ter sido criada através da instrução ALTER TABLE.
+
 Exemplo:
 <br>
 ```
