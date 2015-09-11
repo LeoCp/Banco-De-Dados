@@ -57,13 +57,13 @@ FOREIGN KEY (<NOME_DA_COLUNA>) REFERENCES <NOME_DA_TABELA>(<NOME_DA_COLUNA>) ON 
 ```
 FOREIGN KEY (<NOME_DA_COLUNA>) REFERENCES <NOME_DA_TABELA>(<NOME_DA_COLUNA>) ON UPDATE <NOME_DA_REGRA> 
 ```
-<strong>- RESTRICT:</strong> 
+<strong>- RESTRICT:</strong> O update falhará se um atributo da Tabela1 se existir linhas da Tabela2 que combinam.
 <br>
-<strong>- CASCADE:</strong>
+<strong>- CASCADE:</strong> Fazendo o update do atributo da Tabela1 implica que linhas que combinam com a Tabela2 seram atualizadas. 
 <br>
-<strong>- SET NULL:</strong>
+<strong>- SET NULL:</strong>Quando fizer o update da Tabela1 implica que valores da chave estrangeira na Tabela2 que combinam seram NULL
 <br>
-<strong>- SET DEFAULT:</strong> 
+<strong>- SET DEFAULT:</strong> No update da Tabela1 implica que valores de chave estrangeira da Tabela2 nas linhas que combinam teram valores default aplicados.
 <br><br>
 
 ##### Alter:  
