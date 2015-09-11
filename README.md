@@ -4,8 +4,8 @@
 ### Introdução:
 • A <strong>linguagem de consulta estruturada(SQL)</strong> surgiu em meados da decada de 70 sendo seu principal foco ser uma  linguagem que adapta-se ao modelo relacional. Seu sucesso foi tão grande que a ANSI (American National Standarts Institute),  padronizou as implementações da linguagem, hoje a maior parte de BD’s seguem criteriosamente esta padronização, podendo ter algumas variações.
 ### Tipo de dados:
-<img src="https://uploaddeimagens.com.br/images/000/505/114/full/tipo.png?1441984126"/>
-<strong>• CHAR(COMPRIMENTO):</strong>É um tipo de dado de comprimento fixo,usamod CHAR quando os tamanhos que desejamos armazenar na coluna de uma tabela são de tamanho consistentes e semelhantes. Se você definir uma coluna da tabela como CHAR(10) e armazenar um caractere apenas ele vai armazenar mais nove espaços em branco.
+<img src="https://uploaddeimagens.com.br/images/000/505/114/full/tipo.png?1441984126"/><br>
+<strong>• CHAR(COMPRIMENTO):</strong> É um tipo de dado de comprimento fixo,usamod CHAR quando os tamanhos que desejamos armazenar na coluna de uma tabela são de tamanho consistentes e semelhantes. Se você definir uma coluna da tabela como CHAR(10) e armazenar um caractere apenas ele vai armazenar mais nove espaços em branco.
 ### Integridade de dados:
 ### Intruções Sql:
 A linguagem SQL é dividida em <STRONG>subconjuntos</STRONG> de acordo com as operações que queremos efetuar sobre um banco de dados.
