@@ -41,15 +41,14 @@ CONSTRAINT Emp_REF_Set FOREIGN KEY (idSetor) REFERENCES Setor(idSetor)
 Pode-se acrescentar definições das ações que deverão ser executadas em caso de atualização(ON UPDATE)
 ou remoção(ON DELETE) de linhas da tabela. Se a Tabela2 tem chave estrangeira para Tabela1. 
 <br>
-<strong>ON DELETE:</STRONG>
+<strong>ON DELETE:</STRONG><br>
 ```
 FOREIGN KEY (<NOME_DA_COLUNA>) REFERENCES <NOME_DA_TABELA>(<NOME_DA_COLUNA>) ON DELETE <NOME_DA_REGRA> 
-
 ```
 <br>
 <strong>Regras:</strong><br>
 - RESTRICT: Se houver uma tentativa de remover uma linha da Tabela1 falhará se alguma linha em Tabela2 combina com a chave.
-- 
+<br>
 ##### Alter:  
 ##### Truncate: 
 ##### Comment: 
