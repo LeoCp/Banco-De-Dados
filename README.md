@@ -12,7 +12,13 @@
 A linguagem SQL é dividida em <STRONG>subconjuntos</STRONG> de acordo com as operações que queremos efetuar sobre um banco de dados.
 #### Linguagem de definição de dados (DDL):
 • É usada para definir estruturas de dados ou esquemas.<br>
-• Podemos colocar restrições para limitar o tipo de dados a introduzir. Essas tais restrições podem ser declaradas quando  fizermos a instrução CREATE TABLE ou ALTER TABLE que são comandos DDL que cria e altera uma tabela.
+• Podemos colocar restrições para limitar o tipo de dados a introduzir. Essas tais restrições podem ser declaradas quando  fizermos a instrução CREATE TABLE ou ALTER TABLE que são comandos DDL que cria e altera uma tabela. Alguns tipos comuns de restrições(CONSTRAINT) incluem o seguinte:
+<strong>- Not null</strong><br> 
+<strong>- Default</strong><br> 
+<strong>- Unique</strong><br> 
+<strong>- Check</strong> <br> 
+<strong>- Primary Key</strong> <br> 
+<strong>- Foreign Key </strong>
 ##### CREATE:</p>
 O comando CREATE é usado para criar objetos, como table,view,user..<br><br>
  <strong>+ create table:</strong><br>
