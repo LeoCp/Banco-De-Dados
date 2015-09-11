@@ -6,6 +6,7 @@
 ### Tipo de dados:
 <img src="https://uploaddeimagens.com.br/images/000/505/114/full/tipo.png?1441984126"/><br>
 <strong>• CHAR(COMPRIMENTO):</strong> É um tipo de dado de comprimento fixo. Se você definir uma coluna da tabela como CHAR(10) e armazenar um caractere apenas ele vai armazenar mais nove espaços em branco.
+<strong>• NCHAR(COMPRIMENTO):</strong>
 ### Integridade de dados:
 ### Intruções Sql:
 A linguagem SQL é dividida em <STRONG>subconjuntos</STRONG> de acordo com as operações que queremos efetuar sobre um banco de dados.
