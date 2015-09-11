@@ -36,7 +36,7 @@ CHECK(Salario >= 1000),
 CONSTRAINT Empregado_pk PRIMARY KEY (idEmpregado),
 CONSTRAINT Emp_REF_Set FOREIGN KEY (idSetor) REFERENCES Setor(idSetor)
 );
-
+```
 
 ##### Alter:  
 ##### Truncate: 
