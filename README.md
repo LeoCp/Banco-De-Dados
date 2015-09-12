@@ -116,7 +116,8 @@ Oracle representa cada instrução SQL executada em uma área <strong>Shared Sql
 sobre o banco de dados, suas estruturas e privilégios e as funções dos usuários do banco de dados.Ele armazena um subconjunto das colunas das tabelas do dicionário de dados depois que forem lidas pela primeira vez para o
 buffer cache. Os blocos de dados das tabelas do dicionário de dados são sempre usados para ajudar no processamento das consultas dos usuários e de outros comandos DML.
 
-
+#### Large Poll:
+A Large Pool é uma área opcional da SGA, sendo utilizada em transações com mais de um banco de dados envolvidos, disponibilizando grandes blocos de memoria para operações que precisam aloca-las de uma vez.
 
 ## Bibliografias:
 http://www.devmedia.com.br/entedendo-a-linguagem-sql-parte-i/7775
