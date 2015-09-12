@@ -99,7 +99,7 @@ O servidor oracle é o nome que a Oracle deu para seu SGBD, sendo que ele possui
 A oracle ultiliza a <strong>memoria física</strong> do servidor para armazenar muitos itens para uma <strong>instancia</strong> do Oracle. A instancia é o nome dado a área de memoria e conjunto de processos que são execultados em um banco de dados sendo resposanvel por apenas um banco de dados.
 <br>
 ### Instância:
-A instância é composta de uma grande bloco de memoria alocada em uma area chamada <strong>SGA<strong> juntamente com alguns <strong>processos</strong> que integra a SGA e os arquivos de banco de dados  no disco, quando um banco é inicializado uma SGA é alocada e os processos são inicializados.<br>
+A instância é composta de uma grande bloco de memoria alocada em uma area chamada <strong>SGA</strong> juntamente com alguns <strong>processos</strong> que integra a SGA e os arquivos de banco de dados  no disco, quando um banco é inicializado uma SGA é alocada e os processos são inicializados.<br>
 Assim sendo um banco de dados é a arte passiva de um servidor oracle, alguns processos e estruturas de memoria são necessarios para acessar os dados e gerenciar o banco de dados.<br>
 <img src="http://docs.oracle.com/database/121/CNCPT/img/cncpt233.gif">
 ## Bibliografias:
