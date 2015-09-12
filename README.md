@@ -102,5 +102,7 @@ A oracle ultiliza a <strong>memoria física</strong> do servidor para armazenar 
 A instância é composta de uma grande bloco de memoria alocada em uma area chamada <strong>SGA</strong> juntamente com alguns <strong>processos</strong> que integra a SGA e os arquivos de banco de dados  no disco, quando um banco é inicializado uma SGA é alocada e os processos são inicializados.<br>
 Assim sendo um banco de dados é a arte passiva de um servidor oracle, alguns processos e estruturas de memoria são necessarios para acessar os dados e gerenciar o banco de dados.<br><br>
 <img src="http://docs.oracle.com/database/121/CNCPT/img/cncpt233.gif">
+### SGA (System Global Area):
+
 ## Bibliografias:
 http://www.devmedia.com.br/entedendo-a-linguagem-sql-parte-i/7775
