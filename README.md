@@ -89,5 +89,6 @@ FOREIGN KEY (<NOME_DA_COLUNA>) REFERENCES <NOME_DA_TABELA>(<NOME_DA_COLUNA>) ON 
 #### Linguagem de consulta de dados (DQL):
 #### Linguagem de tansação de dados (DTL):
 
+## Oracle BDA:
 ## Bibliografias:
 http://www.devmedia.com.br/entedendo-a-linguagem-sql-parte-i/7775
