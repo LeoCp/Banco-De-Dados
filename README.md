@@ -90,7 +90,8 @@ FOREIGN KEY (<NOME_DA_COLUNA>) REFERENCES <NOME_DA_TABELA>(<NOME_DA_COLUNA>) ON 
 #### Linguagem de tansação de dados (DTL):
 
 ## Oracle BDA:
-A arquitetura oracle é dividida em <strong>camada fisica</strong> e <strong>camada logica</strong>.
+### Servidor Oracle:
+<img src="http://s13.postimg.org/4loc923af/serv.png"/>
 <br>
 ## Bibliografias:
 http://www.devmedia.com.br/entedendo-a-linguagem-sql-parte-i/7775
