@@ -103,8 +103,9 @@ A instância é composta de uma grande bloco de memoria alocada em uma area cham
 Assim sendo um banco de dados é a arte passiva de um servidor oracle, alguns processos e estruturas de memoria são necessarios para acessar os dados e gerenciar o banco de dados.<br><br>
 <img src="http://docs.oracle.com/database/121/CNCPT/img/cncpt233.gif">
 ### SGA (System Global Area):<br>
-É um conjunto de estruturas de memória compartilhada, o seu conteúdo é compartilhado para todos os <strong>processos</strong> vinculados à instância Oracle. Dentro da SGA tem dados e controle de informação referentes a sua instancia. Os conjunto de estruturas de memorias são:
+É um conjunto de estruturas de memória compartilhada, o seu conteúdo é compartilhado para todos os <strong>processos</strong> vinculados à instância Oracle. Dentro da SGA tem dados e controle de informação referentes a sua instancia. Os conjuntos de estruturas de memorias são:
 #### Shared Poll:
+Na shared Poll temos duas principais areas <strong>Libary Cahe</strong> e a <strong>Data dictionary cache</strong>
 
 
 
