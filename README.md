@@ -108,7 +108,8 @@ Assim sendo um banco de dados é a arte passiva de um servidor oracle, alguns pr
 Na shared Poll temos duas principais areas <strong>Libary Cahe</strong> e a <strong>Data dictionary cache</strong>
 ##### Libary Cahe:
 Oracle representa cada instrução SQL executada em uma área <strong>Shared Sql Area</strong> e uma área de <strong>Private Sql Area</strong>. <br>
-- Shared Sql Area:Contém a árvore de análise e plano de execução para uma determinada instrução sql, ela armazena informações sobre as instruções SQL e PL/SQL executadas no banco de dados. Na segunda vez que uma instrução SQL idêntica for executada, pelo mesmo ou por outro usuário, o plano de execução já estará calculado, o que reduz o tempo de execução do comando SQL.<br>
+- Shared Sql Area: Contém a árvore de análise e plano de execução para uma determinada instrução sql, ela armazena informações sobre as instruções SQL e PL/SQL executadas no banco de dados. Na segunda vez que uma instrução SQL idêntica for executada, pelo mesmo ou por outro usuário, o plano de execução já estará calculado, o que reduz o tempo de execução do comando SQL.<br>
+-Private Sql Area: Contém dados como informação e memória de tempo de execução de estruturas de ligação.
 
 
 
