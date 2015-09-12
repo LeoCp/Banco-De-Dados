@@ -119,5 +119,10 @@ buffer cache. Os blocos de dados das tabelas do dicionário de dados são sempre
 #### Large Poll:
 A Large Pool é uma área opcional da SGA, sendo utilizada em transações com mais de um banco de dados envolvidos, disponibilizando grandes blocos de memoria para operações que precisam aloca-las de uma vez.
 
+#### Database Buffer Cache:
+Armazena os blocos de dados do disco que foram recentemente lidos para atender um comando SELECT ou que contêm blocos
+modificados ou adicionados por uma instrução DML.
+
+
 ## Bibliografias:
 http://www.devmedia.com.br/entedendo-a-linguagem-sql-parte-i/7775
