@@ -98,5 +98,6 @@ O servidor oracle é o nome que a Oracle deu para seu SGBD, sendo que ele possui
 <img src="http://s27.postimg.org/51s4wm3kz/image.png"/><br><br>
 A oracle ultiliza a <strong>memoria física</strong> do servidor para armazenar muitos itens para uma <strong>instancia</strong> do Oracle. A instancia é o nome dado a área de memoria e conjunto de processos que são execultados em um banco de dados sendo resposanvel por apenas um banco de dados.
 <br>
+#### Instância:
 ## Bibliografias:
 http://www.devmedia.com.br/entedendo-a-linguagem-sql-parte-i/7775
