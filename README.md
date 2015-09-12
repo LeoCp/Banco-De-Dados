@@ -106,6 +106,8 @@ Assim sendo um banco de dados é a arte passiva de um servidor oracle, alguns pr
 É um conjunto de estruturas de memória compartilhada, o seu conteúdo é compartilhado para todos os <strong>processos</strong> vinculados à instância Oracle. Dentro da SGA tem dados e controle de informação referentes a sua instancia. Os conjuntos de estruturas de memorias são:
 #### Shared Poll:
 Na shared Poll temos duas principais areas <strong>Libary Cahe</strong> e a <strong>Data dictionary cache</strong>
+##### >Libary Cahe:
+Oracle representa cada instrução SQL executada em uma área <strong>Shared Sql Area</strong> e uma área de <strong>Private Sql Area</strong>. 
 
 
 
