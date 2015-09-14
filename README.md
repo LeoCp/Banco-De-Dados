@@ -123,6 +123,8 @@ A Large Pool é uma área opcional da SGA, sendo utilizada em transações com m
 Armazena os blocos de dados do disco que foram recentemente lidos para atender um comando SELECT ou que contêm blocos
 modificados ou adicionados por uma instrução DML.Cada tamanho de bloco diferente (em casos de bases onde há tablespaces com blocos de tamanhos diferentes) exige um buffer cache próprio.
 
+#### Redo Log Buffer:
+Trata-se de uma lista cisrcula, um conjunto de conteúdo é gravado periodicemente passadando pelo Redo Log Buffer e depois para o Redo Log files. Ele registra as transações comitadas, e as não comitadas ficam em uma area de <strong>rollbak</strong>. Ele é responsavel por recuperar informações em casos de falhas, o buffer circular da SGA tem informações sobre as alterações do BD, contendo entradas redo de mudanças  feitas por operações DML e DLL, tendo informações necessarias para reconstruir ou refazer essas mudanças ou de operações internas. 
 
 ## Bibliografias:
 http://www.devmedia.com.br/entedendo-a-linguagem-sql-parte-i/7775
