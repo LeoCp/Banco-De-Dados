@@ -121,7 +121,7 @@ A Large Pool é uma área opcional da SGA, sendo utilizada em transações com m
 
 #### Database Buffer Cache:
 Armazena os blocos de dados do disco que foram recentemente lidos para atender um comando SELECT ou que contêm blocos
-modificados ou adicionados por uma instrução DML.
+modificados ou adicionados por uma instrução DML.Cada tamanho de bloco diferente (em casos de bases onde há tablespaces com blocos de tamanhos diferentes) exige um buffer cache próprio.
 
 
 ## Bibliografias:
