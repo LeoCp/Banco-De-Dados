@@ -92,7 +92,7 @@ FOREIGN KEY (<NOME_DA_COLUNA>) REFERENCES <NOME_DA_TABELA>(<NOME_DA_COLUNA>) ON 
 ## Oracle BDA:
 ### Servidor Oracle:
 <img src="http://s13.postimg.org/4loc923af/serv.png"/><br>
-O servidor oracle é o nome que a Oracle deu para seu SGBD, sendo que ele possui uma <strong>Instancia</strong> e um <strong> banco de dados oracle </strong>, ou <strong>estrutura de memoria</strong> e <strong>estrutura física</strong>.<br>
+Um servidor Oracle é uma <strong>instância</strong> conectada a um <strong>banco de dados</strong>, ou <strong>estrutura de memoria</strong> e <strong>estrutura física</strong>.<br>
 <strong>Estrutura Física</strong> é composta de aqruivos armazenados em disco.<br>
 <strong>Estrutura de Memoria</strong> mapeia dados para a memoria física.<br><br>
 <img src="http://s27.postimg.org/51s4wm3kz/image.png"/><br><br>
