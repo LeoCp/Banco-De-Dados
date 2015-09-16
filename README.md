@@ -135,10 +135,10 @@ Existe dois tipos de estrutura de armazenamento a Lógica e a Física.<br><br>
 
 #### Estrutura Lógica:
 Na estrutura logica temo..<br><br>
-- Instancia:
-- Database: Que é uma coleção de dados em um disco organizados em arquivos
-- Shema: Que é uma coleção de vários objetos de um ou mais usuário de banco de dados como exemplo: tabelas, seqüências, índices, etc. São associados a um banco de dados na razão de vários esquemas para um BD.
-- Tablespace: São grupos lógicos de armazenamento, criam-se tablespace para os objetos do Banco de Dados (Segmentos se referem aos objetos do banco de dados), ou seja, cria-se uma tablespace para armazenar Tabelas, outra para armazenar índices e assim por diante. Caso tenha disponível mais de um HD, pode-se criar mais de uma tablespace para tabelas, agrupando tabelas que recebem maior frequencia de acesso ou agrupar aquelas com maior volume de dados, desta forma ganhando desempenho nas operações do Banco.
+- <strong>Instancia:</strong>
+- <b>Database:</b> Que é uma coleção de dados em um disco organizados em arquivos
+- Schema: Que é uma coleção de vários objetos de um ou mais usuário de banco de dados como exemplo: tabelas, seqüências, índices, etc. São associados a um banco de dados na razão de vários esquemas para um BD.
+- Tablespace: São grupos lógicos de armazenamento, criam-se tablespace para os objetos do Banco de Dados (Segmentos se referem aos objetos do banco de dados), ou seja, cria-se uma tablespace para armazenar Tabelas, outra para armazenar índices e assim por diante. Caso tenha disponível mais de um HD, pode-se criar mais de uma tablespace para tabelas, agrupando tabelas que recebem maior frequencia de acesso ou agrupar aquelas com maior volume de dados, desta forma ganhando desempenho nas operações do Banco. Um tablespace pode ser visto como um grupo lógico de datafiles;
 
 
 
