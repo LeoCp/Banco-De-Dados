@@ -129,5 +129,19 @@ Ultilizado pelo Oracle JVM para todos os codigos e dados java em uma user sessio
 #### Redo Log Buffer:
 Trata-se de uma lista cisrcula, um conjunto de conteúdo é gravado periodicemente passadando pelo Redo Log Buffer e depois para o Redo Log files. Ele registra as transações comitadas, e as não comitadas ficam em uma area de <strong>rollbak</strong>. Ele é responsavel por recuperar informações em casos de falhas, o buffer circular da SGA tem informações sobre as alterações do BD, contendo entradas redo de mudanças  feitas por operações DML e DLL, tendo informações necessarias para reconstruir ou refazer essas mudanças ou de operações internas. 
 
+### Estruturas de armazenamento:
+Existe dois tipos de estrutura de armazenamento a Lógica e a Física.<br><br>
+<img src="http://s4.postimg.org/mqhkchdot/image.png" />
+
+#### Estrutura Lógica:
+Na estrutura logica temo..<br><br>
+- Instancia:
+- Database: Que é uma coleção de dados em um disco organizados em arquivos
+- Shema: Que é uma coleção de vários objetos de um ou mais usuário de banco de dados como exemplo: tabelas, seqüências, índices, etc. São associados a um banco de dados na razão de vários esquemas para um BD.
+- Tablespace: São grupos lógicos de armazenamento, criam-se tablespace para os objetos do Banco de Dados (Segmentos se referem aos objetos do banco de dados), ou seja, cria-se uma tablespace para armazenar Tabelas, outra para armazenar índices e assim por diante. Caso tenha disponível mais de um HD, pode-se criar mais de uma tablespace para tabelas, agrupando tabelas que recebem maior frequencia de acesso ou agrupar aquelas com maior volume de dados, desta forma ganhando desempenho nas operações do Banco.
+
+
+
+
 ## Bibliografias:
 http://www.devmedia.com.br/entedendo-a-linguagem-sql-parte-i/7775
