@@ -141,9 +141,11 @@ Na estrutura logica temo..<br>
 - <b>Tablespace:</b> São grupos lógicos de armazenamento, criam-se tablespace para os objetos do Banco de Dados (Segmentos se referem aos objetos do banco de dados), ou seja, cria-se uma tablespace para armazenar Tabelas, outra para armazenar índices e assim por diante. Caso tenha disponível mais de um HD, pode-se criar mais de uma tablespace para tabelas, agrupando tabelas que recebem maior frequencia de acesso ou agrupar aquelas com maior volume de dados, desta forma ganhando desempenho nas operações do Banco. Um tablespace pode ser visto como um grupo lógico de <b>datafiles</b>, sendo que datafiles são estruturas físicas subdivididas em extents e blocks.
 - <b>Segments:</b> É um grupo de extensões que forma um objeto do banco de dados. Portanto, um objeto qualquer do banco de dados (uma tabela, ou um índice, por exemplo) tem seus dados armazenados em um segment. Um objeto tem apenas um segmento (que pode crescer de tamanho alocando mais extents), com exceção de objetos particionados ou clusterizados. Uma tabela particionada ou um índice particionado, por exemplo, tem um segmento para cada partição.
 - <b>Extent:</b> Ele consiste em um ou mais blocos do banco de dados. Quando um objeto do banco de dados solicita mais espaço (uma tabela sofrendo um INSERT, por exemplo), o espaço adicionado ao objeto é alocado como um extent.
-
+- <b>Db Block:</b> Um block (bloco) do banco de dados é a menor unidade de armazenamento no Oracle. O tamanho de um bloco é um número específico de bytes de armazenamento em um determinado tablespace dentro do banco de dados.
+O tamanho de bloco é especificado no parâmetro DB_BLOCK_SIZE. Este tamanho geralmente é um número múltiplo do tamanho de bloco do sistema operacional, para um melhor desempenho de I/O.
 
 
 
 ## Bibliografias:
-http://www.devmedia.com.br/entedendo-a-linguagem-sql-parte-i/7775
+http://www.devmedia.com.br/
+http://certificacaobd.com.br/
