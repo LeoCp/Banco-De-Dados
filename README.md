@@ -146,7 +146,7 @@ Existe dois tipos de estrutura de armazenamento a Lógica e a Física.<br><br>
 
 #### Estrutura Lógica:
 Na estrutura logica temo..<br>
-- <strong>Instancia:</strong>
+- <strong>Instancia:</strong> Um banco de dados Oracle é associado a uma instância. A instância inclui os processos de memória e plano de fundo que fornecem suporte ao banco de dados. Uma instância Oracle sempre mapeia em um único banco de dados.
 - <b>Database:</b> Que é uma coleção de dados em um disco organizados em arquivos
 - <b>Schema:</b> Que é uma coleção de vários objetos de um ou mais usuário de banco de dados como exemplo: tabelas, seqüências, índices, etc. São associados a um banco de dados na razão de vários esquemas para um BD.
 - <b>Tablespace:</b> São grupos lógicos de armazenamento, criam-se tablespace para os objetos do Banco de Dados (Segmentos se referem aos objetos do banco de dados), ou seja, cria-se uma tablespace para armazenar Tabelas, outra para armazenar índices e assim por diante. Caso tenha disponível mais de um HD, pode-se criar mais de uma tablespace para tabelas, agrupando tabelas que recebem maior frequencia de acesso ou agrupar aquelas com maior volume de dados, desta forma ganhando desempenho nas operações do Banco. Um tablespace pode ser visto como um grupo lógico de <b>datafiles</b>, sendo que datafiles são estruturas físicas subdivididas em extents e blocks.
