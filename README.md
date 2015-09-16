@@ -102,7 +102,7 @@ Dentro de uma estrutura de memoria nos temos uma SGA e uma PGA.<br>
  - Shared pool.<br>
  - Large pool.<br>
  - Java pool. <br>
- - Streams pool.<br>
+ - Streams pool.<br><br>
 <b>• PGA(Private Global Area):</b>É a memória privada de uma sessão.
  
 
