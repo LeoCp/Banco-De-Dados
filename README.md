@@ -94,7 +94,14 @@ FOREIGN KEY (<NOME_DA_COLUNA>) REFERENCES <NOME_DA_TABELA>(<NOME_DA_COLUNA>) ON 
 <img src="http://s13.postimg.org/4loc923af/serv.png"/><br>
 Um servidor Oracle é uma <strong>instância</strong> conectada a um <strong>banco de dados</strong>, ou <strong>estrutura de memoria</strong> e <strong>estrutura física</strong>.<br>
 <strong>Estrutura Física</strong> é composta de aqruivos armazenados em disco.<br>
-<strong>Estrutura de Memoria</strong> mapeia dados para a memoria física. Uma instância é um bloco de memória compartilhada e um conjunto de processos em segundo plano.<br>Temos também uma <strong>sessão de usuario</strong> que é um processo de usuário conectado a um processo de servidor.<br>
+<strong>Estrutura de Memoria</strong> mapeia dados para a memoria física. Uma instância é um bloco de memória compartilhada e um conjunto de processos em segundo plano.<br><br>
+Dentro de uma estrutura de memoria nos temos uma SGA e uma PGA.
+<b>• SGA(System Global Area):</b> é a área de dados alocada para uma instância do Oracle, ela tem subestruturas que são:
+ - Database buffer cache.<br>
+ - Log buffer.<br>
+ - Shared pool.<br>
+ 
+
 <img src="http://s27.postimg.org/51s4wm3kz/image.png"/><br><br>
 A oracle ultiliza a <strong>memoria física</strong> do servidor para armazenar muitos itens para uma <strong>instancia</strong> do Oracle. A instancia é o nome dado a área de memoria e conjunto de processos que são execultados em um banco de dados sendo resposanvel por apenas um banco de dados.
 <br>
