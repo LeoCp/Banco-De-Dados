@@ -153,8 +153,8 @@ Na estrutura logica temo..<br>
 - <b>Segments:</b> É um grupo de extensões que forma um objeto do banco de dados. Portanto, um objeto qualquer do banco de dados (uma tabela, ou um índice, por exemplo) tem seus dados armazenados em um segment. Um objeto tem apenas um segmento (que pode crescer de tamanho alocando mais extents), com exceção de objetos particionados ou clusterizados. Uma tabela particionada ou um índice particionado, por exemplo, tem um segmento para cada partição.
 - <b>Extent:</b> Ele consiste em um ou mais blocos do banco de dados. Quando um objeto do banco de dados solicita mais espaço (uma tabela sofrendo um INSERT, por exemplo), o espaço adicionado ao objeto é alocado como um extent.
 - <b>Db Block:</b> Um block (bloco) do banco de dados é a menor unidade de armazenamento no Oracle. O tamanho de um bloco é um número específico de bytes de armazenamento em um determinado tablespace dentro do banco de dados.
-O tamanho de bloco é especificado no parâmetro DB_BLOCK_SIZE. Este tamanho geralmente é um número múltiplo do tamanho de bloco do sistema operacional, para um melhor desempenho de I/O.<br>
-<img src="http://api.ning.com/files/0RX9yjzGTElLMImuRmPiUfwB42AYJq22HPQ4ZCweXi9e-LK5OHI7doNpq8BrJzOHC4F-w*MUgoZFkZdVKXzXUMKuHmRt2Z4T/extent.jpg"/><br>
+O tamanho de bloco é especificado no parâmetro DB_BLOCK_SIZE. Este tamanho geralmente é um número múltiplo do tamanho de bloco do sistema operacional, para um melhor desempenho de I/O.<br><br>
+<img src="http://api.ning.com/files/0RX9yjzGTElLMImuRmPiUfwB42AYJq22HPQ4ZCweXi9e-LK5OHI7doNpq8BrJzOHC4F-w*MUgoZFkZdVKXzXUMKuHmRt2Z4T/extent.jpg"/><br><br>
 As tablespaces são formadas por segmentos. Na tablespace estão armazenados os objeto do banco de dados como ìdices e tabelas. Cada segmento contém uma ou mais extensões. Uma extensão consiste em bloco de dados contíguos, ou seja, cada extensão somente pode existir em um arquivo de dados. Os blocos de dados representam a menor unidade de entrada/saída no banco de dados.
 
 
