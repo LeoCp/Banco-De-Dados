@@ -158,7 +158,10 @@ O tamanho de bloco é especificado no parâmetro DB_BLOCK_SIZE. Este tamanho ger
 As tablespaces são formadas por segmentos. Na tablespace estão armazenados os objeto do banco de dados como ìdices e tabelas. Cada segmento contém uma ou mais extensões. Uma extensão consiste em bloco de dados contíguos, ou seja, cada extensão somente pode existir em um arquivo de dados. Os blocos de dados representam a menor unidade de entrada/saída no banco de dados.
 
 #### Estrutura Física:
-Temos 3 arquivos obrigatórios em um banco de dados Oracle que são os <b>controlfile</b>, <b>redo log files</b> e <b>datafiles</b>
+Temos 3 arquivos obrigatórios em um banco de dados Oracle que são os <b>controlfile</b>, <b>redo log files</b> e <b>datafiles</b><br>
+
+<b>• ControlFile:</b> O Oracle tem pelo menos um controlfile que mantém os metadados do banco de dados. Metadados são os dados sobre a estrutura física do próprio banco
+de dados
 
 
 ## Bibliografias:
