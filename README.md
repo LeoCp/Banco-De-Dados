@@ -160,8 +160,8 @@ As tablespaces são formadas por segmentos. Na tablespace estão armazenados os 
 #### Estrutura Física:
 Temos 3 arquivos obrigatórios em um banco de dados Oracle que são os <b>controlfile</b>, <b>redo log files</b> e <b>datafiles</b><br>
 
-<b>• ControlFile:</b> O Oracle tem pelo menos um controlfile que mantém os metadados do banco de dados. Metadados são os dados sobre a estrutura física do próprio banco
-de dados
+<b>• ControlFile(Arquivos de configuração):</b> O Oracle tem pelo menos um controlfile que mantém os metadados do banco de dados. Metadados são os dados sobre a estrutura física do próprio banco de dados.Ele define o estado corrente de um banco de dados, mantente a integridade do Bd. O controlfile contém o nome do banco de dados, a data de criação do banco de dados, os nomes e localizações de cada datafile, redo log associados ao banco de dados, tem informações sobre as tablespaces, 
+possíveis datafiles com status offline, o histórico de logs, pontos de Backup, informações de checkpoint 
 
 
 ## Bibliografias:
