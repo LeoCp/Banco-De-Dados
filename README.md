@@ -161,8 +161,16 @@ As tablespaces são formadas por segmentos. Na tablespace estão armazenados os 
 Temos 3 arquivos obrigatórios em um banco de dados Oracle que são os <b>controlfile</b>, <b>redo log files</b> e <b>datafiles</b><br>
 
 <b>• ControlFile(Arquivos de configuração):</b> O Oracle tem pelo menos um controlfile que mantém os metadados do banco de dados. Metadados são os dados sobre a estrutura física do próprio banco de dados.Ele define o estado corrente de um banco de dados, mantente a integridade do Bd. O controlfile contém o nome do banco de dados, a data de criação do banco de dados, os nomes e localizações de cada datafile, redo log associados ao banco de dados, tem informações sobre as tablespaces, 
-possíveis datafiles com status offline, o histórico de logs, pontos de Backup, informações de checkpoint 
-
+possíveis datafiles com status offline, o histórico de logs, pontos de Backup, informações de checkpoint.<br> 
+<b>• Redo Log Files:</b>Sempre que forem adicionados, removidos ou alterados dados em uma tabela, índice ou outro objeto do Oracle, uma entrada será gravada no redo log file
+atual. O Oracle deve possuir pelo menos dois arquivos de redo log, porque ele utiliza de forma circular. Quando um redo log é preenchido até o limite, o
+próximo arquivo é reutilizado.
+Quando ocorre alguma falha (por exemplo, falta de energia no servidor), alguns blocos de dados que foram atualizados no database buf er cache podem
+não ter sido gravados nos datafiles. Quando a instância for reinicializada, as entradas no redo log serão aplicadas aos datafiles do banco de dados em uma
+operação de roll­forward para restaurar o estado do banco de dados até o ponto em que a falha ocorreu.
+É altamente recomendado que os arquivos de redo log sejam multiplexados, ou seja, tenham uma ou mais cópias ativas para garantir disponibilidade e
+integridade dos dados. A perda de um redo log que não tenha cópia pode causar perda de dados.
+ 
 
 ## Bibliografias:
 http://www.devmedia.com.br/<br>
