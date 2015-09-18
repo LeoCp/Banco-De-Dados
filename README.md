@@ -169,7 +169,8 @@ Quando ocorre alguma falha (por exemplo, falta de energia no servidor), alguns b
 não ter sido gravados nos datafiles. Quando a instância for reinicializada, as entradas no redo log serão aplicadas aos datafiles do banco de dados em uma
 operação de roll­forward para restaurar o estado do banco de dados até o ponto em que a falha ocorreu.
 É altamente recomendado que os arquivos de redo log sejam multiplexados, ou seja, tenham uma ou mais cópias ativas para garantir disponibilidade e
-integridade dos dados. A perda de um redo log que não tenha cópia pode causar perda de dados.
+integridade dos dados. A perda de um redo log que não tenha cópia pode causar perda de dados.<br>
+ <b>• DataFiles :</b>
  
 
 ## Bibliografias:
