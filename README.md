@@ -97,12 +97,12 @@ Um servidor Oracle é uma <strong>instância</strong> conectada a um <strong>ban
 <strong>Estrutura de Memoria</strong> mapeia dados para a memoria física. Uma instância é um bloco de memória compartilhada e um conjunto de processos em segundo plano.<br><br>
 Dentro de uma estrutura de memoria nos temos uma SGA e uma PGA.<br>
 <b>• SGA(System Global Area):</b> É a área de dados alocada para uma instância do Oracle, ela tem subestruturas que são:
- - Database buffer cache.<br>
- - Log buffer.<br>
- - Shared pool.<br>
- - Large pool.<br>
- - Java pool. <br>
- - Streams pool.<br><br>
+- Database buffer cache.<br>
+- Log buffer.<br>
+- Shared pool.<br>
+- Large pool.<br>
+- Java pool. <br>
+- Streams pool.<br><br>
 <b>• PGA(Private Global Area):</b>É a memória privada de uma sessão.
  
 
