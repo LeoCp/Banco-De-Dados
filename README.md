@@ -172,7 +172,8 @@ operação de roll­forward para restaurar o estado do banco de dados até o pon
 integridade dos dados. A perda de um redo log que não tenha cópia pode causar perda de dados.<br>
  <b>• DataFiles :</b>
  [..]
- ### PROFILE
+ 
+### Profile
  
 
 ## Bibliografias:
