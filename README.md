@@ -171,6 +171,8 @@ operação de roll­forward para restaurar o estado do banco de dados até o pon
 É altamente recomendado que os arquivos de redo log sejam multiplexados, ou seja, tenham uma ou mais cópias ativas para garantir disponibilidade e
 integridade dos dados. A perda de um redo log que não tenha cópia pode causar perda de dados.<br>
  <b>• DataFiles :</b>
+ [..]
+ ### PROFILE
  
 
 ## Bibliografias:
