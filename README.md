@@ -174,12 +174,16 @@ integridade dos dados. A perda de um redo log que não tenha cópia pode causar 
  [..]
  
 ## Profile
+É um conjunto de recursos que podem ser utilizados para o gerenciamento de usuários. O recurso definido no profile possui um limite definido e um tipo que o define como sendo um recurso do Núcleo do Sistema Operacional (Kernel) ou um recurso de senha (PASSWORD).
+<br>
+Logo o Profile ou Perfil de Usuario é um conjunto de parâmetros separados por limites de recursos e senhas, os recursos variam dede o controle da quantidade máxima de entrada e saída (I/O) das operações de cada usuário até o  controle da complexidade da elaboraçãoda senha do usuário.
 ## View 
 ## Sequences
 ## Trigger
  
 
 ## Bibliografias:
+http://imasters.com.br/<br>
 http://www.devmedia.com.br/<br>
 http://certificacaobd.com.br/<br>
 https://msdn.microsoft.com/<br>
