@@ -174,6 +174,9 @@ integridade dos dados. A perda de um redo log que não tenha cópia pode causar 
  [..]
  
 ## Profile
+## View 
+## Sequences
+## Trigger
  
 
 ## Bibliografias:
